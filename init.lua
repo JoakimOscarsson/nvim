@@ -1,9 +1,10 @@
-require("jgo.plugins-setup")
-require("jgo.core.options")
-require("jgo.core.keymaps")
-require("jgo.plugins.telescope")
-require("jgo.plugins.nvim-cmp")
-require("jgo.plugins.lsp.mason")
-require("jgo.plugins.lsp.lspsaga")
-require("jgo.plugins.lsp.lspconfig")
-require("jgo.plugins.treesitter")
+-- ============================================
+--             Neovim Lua Config
+-- ============================================
+require("jgo.packer")
+require("jgo.options")
+require("jgo.colorscheme")
+require("jgo.keymap")
+
+require("jgo.telescope")
+require("jgo.treesitter")
